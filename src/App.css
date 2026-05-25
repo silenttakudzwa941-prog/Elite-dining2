@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1b190f;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #1b190f;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    color: #fff363;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button {
+    background: #fff363;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    animation: slideShow 15s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes slideShow {
+    0% { background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c'); }
+    33% { background-image: url('https://images.unsplash.com/photo-1551782450-a2132b4ba21d'); }
+    66% { background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836'); }
+}
+
+/* GALLERY */
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* MENU */
+.menu {
+    padding: 50px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    background: #fff363;
+    color: black;
+    padding: 20px;
+}
+
+/* RESERVATION */
+.reservation {
+    padding: 50px;
+    text-align: center;
+}
+
+.reservation form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.reservation input, .reservation button {
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #fff363;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-card {
+    max-width: 300px;
+    margin: auto;
+}
