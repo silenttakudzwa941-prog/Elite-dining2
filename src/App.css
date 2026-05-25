@@ -123,3 +123,17 @@ footer {
     max-width: 300px;
     margin: auto;
 }
+#rsv {
+    background: #fff363;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+#stay {
+    background: #fff363;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}

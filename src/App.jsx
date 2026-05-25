@@ -16,13 +16,13 @@ function App() {
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
-    <button onclick="goToReservation()"><a href="booking.html">Book Reservation</a></button>
+    <button id="stay"onclick="goToReservation()"><a href="booking.html">Book Reservation</a></button>
 </nav>
 <section class="hero">
     <div class="hero-content">
         <h2>Experience Luxury Dining</h2>
         <p>Fine cuisine crafted to perfection</p>
-        <button onclick="goToReservation()">Reserve a Table</button>
+        <button id="rsv" onclick="goToReservation()">Reserve a Table</button>
     </div>
 </section>
 
@@ -32,6 +32,25 @@ function App() {
         <img src={hideout1} alt="Gallery Image" />
         <img src={hideout2} alt="Gallery Image" />
         <img src={hideout3} alt="Gallery Image" />
+        </div>
+</section>
+<section id="gallery" class="gallery">
+    <h2>Our Hideout</h2>
+    <div class="gallery-container">
+        <img src={hideout1} alt="Gallery Image" />
+        <img src={hideout2} alt="Gallery Image" />
+        <img src={hideout3} alt="Gallery Image" />
+        </div>
+</section>
+<section id="gallery" class="gallery">
+    <h2>Our Hideout</h2>
+    <div class="gallery-container">
+        <img src={hideout1} alt="Gallery Image" />
+        <img src={hideout2} alt="Gallery Image" />
+        <img src={hideout3} alt="Gallery Image" 
+        img src={hideout1} alt="Gallery Image" />
+        <img src={hideout2} alt="Gallery Image" />
+        <img src={hideout3} alt="Gallery Image"/>
         </div>
 </section>
 
