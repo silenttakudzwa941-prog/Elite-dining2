@@ -5,9 +5,7 @@ import hideout3 from './assets/hideout3.jpg'
 import pizza from './assets/pizza.jpg'
 import spagheti from './assets/spagheti.jpg'
 import cake from './assets/cake.jpg'
-import pancake from './assets/pancake.jpg'
-import strawberry from './assets/strawberry.jpg'
-import icecream from './assets/icecream.jpg'
+import {  FaWhatsapp } from 'react-icons/fa' 
 import './App.css'
 
 function App() {
@@ -56,17 +54,17 @@ function App() {
 <section id="gallery" class="gallery">
     <h2>desserts</h2>
     <div class="gallery-container">
-         <div><img src={pancake} alt="Gallery Image" />
+         <div><img src={hideout1} alt="Gallery Image" />
         <h3>Pan Cake</h3>
 <p>A delicious pan cake made with fresh ingredients</p>
 <p>Price: $12.99</p>
         </div>
-         <div><img src={strawberry} alt="Gallery Image" />
+         <div><img src={hideout2} alt="Gallery Image" />
         <h3>Strawberry</h3>
 <p>A delicious strawberry made with fresh ingredients</p>
 <p>Price: $12.99</p>
         </div>
-         <div><img src={icecream} alt="Gallery Image" />
+         <div><img src={hideout3} alt="Gallery Image" />
         <h3>Ice Cream</h3>
 <p>A delicious ice cream made with fresh ingredients</p>
 <p>Price: $12.99</p>
@@ -91,15 +89,10 @@ function App() {
     <div class="contact-card">
         <h3>Contact Us</h3>
         <p>Email: silenttakudzwa941@.com</p>
-        <p>Phone: +263 775 496 377</p>
+        <p><FaWhatsapp /> Phone: +263 775 496 377</p>
         <p>Location: Marondera, Zimbabwe</p>
 
-        <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
-            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        </div>
+       
     </div>
 </footer>
 
