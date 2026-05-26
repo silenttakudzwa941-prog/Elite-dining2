@@ -2,6 +2,12 @@
 import hideout1 from './assets/hideout1.jpg'
 import hideout2 from './assets/hideout2.jpg'
 import hideout3 from './assets/hideout3.jpg'
+import pizza from './assets/pizza.jpg'
+import spagheti from './assets/spagheti.jpg'
+import cake from './assets/cake.jpg'
+import pancake from './assets/pancake.jpg'
+import strawberry from './assets/strawberry.jpg'
+import icecream from './assets/icecream.jpg'
 import './App.css'
 
 function App() {
@@ -27,11 +33,45 @@ function App() {
 </section>
 
 <section id="gallery" class="gallery">
-    <h2>Our Hideout</h2>
+    <h2>Our Menu</h2>
     <div class="gallery-container">
-        <img src={hideout1} alt="Gallery Image" />
-        <img src={hideout2} alt="Gallery Image" />
-        <img src={hideout3} alt="Gallery Image" />
+        <div><img src={pizza} alt="Gallery Image" />
+        <h3>Pizza</h3>
+<p>A delicious pizza made with fresh ingredients</p>
+<p>Price: $12.99</p>
+        </div>
+        <div><img src={spagheti} alt="Gallery Image" />
+        <h3>Spagheti</h3>
+<p>A delicious spagheti made with fresh ingredients</p>
+<p>Price: $14.99</p>
+        </div>
+        <div><img src={cake} alt="Gallery Image" />
+        <h3>Cake</h3>
+<p>A delicious cake made with fresh ingredients</p>
+<p>Price: $12.99</p>
+        </div>
+       
+        </div>
+</section>
+<section id="gallery" class="gallery">
+    <h2>desserts</h2>
+    <div class="gallery-container">
+         <div><img src={pancake} alt="Gallery Image" />
+        <h3>Pan Cake</h3>
+<p>A delicious pan cake made with fresh ingredients</p>
+<p>Price: $12.99</p>
+        </div>
+         <div><img src={strawberry} alt="Gallery Image" />
+        <h3>Strawberry</h3>
+<p>A delicious strawberry made with fresh ingredients</p>
+<p>Price: $12.99</p>
+        </div>
+         <div><img src={icecream} alt="Gallery Image" />
+        <h3>Ice Cream</h3>
+<p>A delicious ice cream made with fresh ingredients</p>
+<p>Price: $12.99</p>
+        </div>
+       
         </div>
 </section>
 <section id="gallery" class="gallery">
@@ -39,16 +79,8 @@ function App() {
     <div class="gallery-container">
         <img src={hideout1} alt="Gallery Image" />
         <img src={hideout2} alt="Gallery Image" />
-        <img src={hideout3} alt="Gallery Image" />
-        </div>
-</section>
-<section id="gallery" class="gallery">
-    <h2>Our Hideout</h2>
-    <div class="gallery-container">
+        <img src={hideout3} alt="Gallery Image"/> 
         <img src={hideout1} alt="Gallery Image" />
-        <img src={hideout2} alt="Gallery Image" />
-        <img src={hideout3} alt="Gallery Image" 
-        img src={hideout1} alt="Gallery Image" />
         <img src={hideout2} alt="Gallery Image" />
         <img src={hideout3} alt="Gallery Image"/>
         </div>
