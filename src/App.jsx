@@ -13,7 +13,7 @@ function App() {
   return (
     <>
 <nav class="navbar">
-    <h1 class="logo">Elite Dining</h1>
+    <h1 class="logo">Elite2 Dining</h1>
     <ul class="nav-links">
         <li><a href="#">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
