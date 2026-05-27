@@ -5,7 +5,7 @@ import hideout3 from './assets/hideout3.jpg'
 import pizza from './assets/pizza.jpg'
 import spagheti from './assets/spagheti.jpg'
 import cake from './assets/cake.jpg'
-import {  FaWhatsapp, FaMail,FaLocation } from 'react-icons/fa' 
+import {  FaWhatsapp,FaInstagram} from 'react-icons/fa' 
 import './App.css'
 
 function App() {
@@ -88,11 +88,9 @@ function App() {
    <footer id="contact">
     <div class="contact-card">
         <h3>Contact Us</h3>
-        <p><FaMail /> Email: silenttakudzwa941@.com</p>
-        <p><FaWhatsapp /> Phone: +263 775 496 377</p>
-        <p><FaLocation /> Location: Marondera, Zimbabwe</p>
-
-       
+        <p> Email: silenttakudzwa941@.com</p>
+        <p>< FaWhatsapp /> Phone: +263 775 496 377</p>
+        <p>< FaInstagram /> Instagram: @elitedining</p>
     </div>
 </footer>
 
