@@ -1,0 +1,120 @@
+import React from "react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaWhatsapp,
+} from "react-icons/fa";
+
+export default function RestaurantFooter() {
+  return (
+    <footer className="bg-black text-white pt-16 pb-8 px-6">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
+
+        {/* Brand Section */}
+        <div>
+          <h1 className="text-3xl font-bold text-orange-500 mb-4">
+            RoyalBite
+          </h1>
+
+          <p className="text-gray-400 leading-7">
+            Experience luxury dining with world-class cuisine,
+            elegant ambiance, and unforgettable moments.
+          </p>
+
+          <div className="flex gap-4 mt-6">
+            <a
+              href="#"
+              className="bg-orange-500 p-3 rounded-full hover:scale-110 transition"
+            >
+              <FaFacebookF />
+            </a>
+
+            <a
+              href="#"
+              className="bg-orange-500 p-3 rounded-full hover:scale-110 transition"
+            >
+              <FaInstagram />
+            </a>
+
+            <a
+              href="#"
+              className="bg-orange-500 p-3 rounded-full hover:scale-110 transition"
+            >
+              <FaTwitter />
+            </a>
+
+            <a
+              href="#"
+              className="bg-orange-500 p-3 rounded-full hover:scale-110 transition"
+            >
+              <FaWhatsapp />
+            </a>
+          </div>
+        </div>
+
+        {/* Quick Links */}
+        <div>
+          <h2 className="text-xl font-semibold mb-5">
+            Quick Links
+          </h2>
+
+          <ul className="space-y-3 text-gray-400">
+            <li className="hover:text-orange-500 cursor-pointer">
+              Home
+            </li>
+
+            <li className="hover:text-orange-500 cursor-pointer">
+              About
+            </li>
+
+            <li className="hover:text-orange-500 cursor-pointer">
+              Menu
+            </li>
+
+            <li className="hover:text-orange-500 cursor-pointer">
+              Reservations
+            </li>
+
+            <li className="hover:text-orange-500 cursor-pointer">
+              Contact
+            </li>
+          </ul>
+        </div>
+
+        {/* Opening Hours */}
+        <div>
+          <h2 className="text-xl font-semibold mb-5">
+            Opening Hours
+          </h2>
+
+          <div className="space-y-3 text-gray-400">
+            <p>Monday - Friday: 9AM - 11PM</p>
+            <p>Saturday: 10AM - Midnight</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+
+        {/* Reservation Card */}
+        <div className="bg-orange-500 rounded-2xl p-6 text-black shadow-2xl">
+          <h2 className="text-2xl font-bold mb-4">
+            Reserve a Table
+          </h2>
+
+          <p className="mb-5">
+            Book your dining experience today.
+          </p>
+
+          <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-900 transition">
+            Book Now
+          </button>
+        </div>
+      </div>
+
+      {/* Bottom Footer */}
+      <div className="border-t border-gray-800 mt-12 pt-6 text-center text-gray-500">
+        © 2026 RoyalBite Restaurant. All Rights Reserved.
+      </div>
+    </footer>
+  );
+}
