@@ -5,6 +5,7 @@ import hideout3 from './assets/hideout3.jpg'
 import pizza from './assets/pizza.jpg'
 import spagheti from './assets/spagheti.jpg'
 import cake from './assets/cake.jpg'
+import Reservation from "./pages/Reservation";
 import {  FaWhatsapp,FaInstagram,FaFacebook,FaTwitter} from 'react-icons/fa' 
 import './App.css'
 
