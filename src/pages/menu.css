@@ -1,0 +1,98 @@
+.menu-page {
+  background: #fafafa;
+}
+
+.menu-hero {
+  height: 60vh;
+  background: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0")
+    center/cover no-repeat;
+}
+
+.menu-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu-overlay h1 {
+  font-size: 4rem;
+  color: #c59d5f;
+  margin-bottom: 20px;
+}
+
+.menu-overlay p {
+  font-size: 1.2rem;
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section h2 {
+  text-align: center;
+  color: #c59d5f;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.menu-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.menu-header h3 {
+  color: #333;
+}
+
+.menu-header span {
+  color: #c59d5f;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.menu-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .menu-overlay h1 {
+    font-size: 2.8rem;
+  }
+
+  .menu-section h2 {
+    font-size: 2rem;
+  }
+}
